@@ -1,13 +1,13 @@
-package com.videoamigo.pages;
+package com.va.pages;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.videoamigo.utility.BrowserFactory;
-import com.videoamigo.utility.ConfigDataProvider;
-import com.videoamigo.utility.ExcelDataProvider;
-import com.videoamigo.utility.Helper;
+import com.va.utility.BrowserFactory;
+import com.va.utility.ConfigDataProvider;
+import com.va.utility.ExcelDataProvider;
+import com.va.utility.Helper;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;

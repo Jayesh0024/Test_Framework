@@ -1,7 +1,7 @@
-package com.videoamigo.pages;
+package com.va.pages;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.videoamigo.utility.Helper;
+import com.va.utility.Helper;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

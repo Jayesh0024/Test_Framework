@@ -1,7 +1,7 @@
-package com.videoamigo.testcases;
+package com.va.testcases;
 
-import com.videoamigo.pages.BaseClass;
-import com.videoamigo.pages.LoginPage;
+import com.va.pages.BaseClass;
+import com.va.pages.LoginPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 

@@ -1,4 +1,4 @@
-package com.videoamigo.utility;
+package com.va.utility;
 
 import java.io.File;
 import java.io.FileInputStream;
