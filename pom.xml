@@ -77,7 +77,7 @@
                     </suiteXmlFiles>
 
                     <systemPropertyVariables>
-                        <executionBrowser>Chrome</executionBrowser>
+                        <executionBrowser>Firefox</executionBrowser>
                         <appURL>https://profile.videoamigo.com/</appURL>
                     </systemPropertyVariables>
 

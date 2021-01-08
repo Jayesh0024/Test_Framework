@@ -124,16 +124,19 @@ public class Helper {
         logger.info("LOG:INFO-"+logInfo);
     }
 
-    public static void waitForWebElementAndClick(WebDriver driver,WebElement locator,String logInfo)
+    public static void waitForWebElementAndClick(WebDriver driver,WebElement locator,String logInfo,ExtentTest logger)
     {
         new WebDriverWait(driver,30).until(ExpectedConditions.elementToBeClickable(locator)).click();
         System.out.println("LOG:INFO-"+logInfo);
+        logger.info("LOG:INFO-"+logInfo);
     }
 
-    public static void waitForWebElementAndClick(WebDriver driver,WebElement locator,int time,String logInfo)
+    public static void waitForWebElementAndClick(WebDriver driver,WebElement locator,int time,String logInfo,ExtentTest logger)
     {
         new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(locator)).click();
         System.out.println("LOG:INFO-"+logInfo);
+        logger.info("LOG:INFO-"+logInfo);
+
     }
 
 

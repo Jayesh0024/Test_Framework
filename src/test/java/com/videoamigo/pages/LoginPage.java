@@ -24,7 +24,7 @@ public class LoginPage {
     //Login page UI elements
     @FindBy(id="email") WebElement email;
     @FindBy(id="password") WebElement password;
-    @FindBy(xpath="//div[@class='modal_center']//button[@class='btn btn-primary']") WebElement signInButton;
+    @FindBy(xpath="//button[@type='submit']") WebElement signInButton;
 
 
     public void loginToApplication(String uname,String pass,ExtentTest logger)
@@ -32,7 +32,7 @@ public class LoginPage {
         Helper.waitForWebElementAndType(driver,email,uname,"Enter email",logger);
                 //(driver, username, uname, "Enter username");
         Helper.waitForWebElementAndType(driver, password, pass, "Enter password",logger);
-        Helper.waitForWebElementAndClick(driver, signInButton, "Click On Login button");
+        Helper.waitForWebElementAndClick(driver, signInButton, "Click On Login button",logger);
         Assert.assertTrue(Helper.waitForURL(driver, "dashboard"));
     }
 }
